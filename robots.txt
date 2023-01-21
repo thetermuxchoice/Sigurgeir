@@ -1,0 +1,9 @@
+Sitemap: https://aetherapparel.com/sitemap.xml
+User-agent: *
+Allow: /*
+Disallow: /studio/*
+Disallow: /preview/*
+Disallow: /api/*
+Disallow: /vip/*
+Disallow: /dev-test
+Disallow: /
