@@ -10,7 +10,7 @@ export const Landing = () => {
     <>    
     <div className='landing'>
       <div className='containerLanding'>
-        <div className='info'>
+        <div className='info animated bounceInLeft'>
           <div className='infor'>
             <h2>
               Welcome to ThatsLifeStudio!
