@@ -1,0 +1,22 @@
+.whyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(120vh - 80px);
+    background-color: rgb(232, 234, 245);
+
+}
+@media screen and (min-width: 960px){
+    .whyContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: calc(120vh - 120px);
+        background-color: rgb(232, 234, 245);
+    }   
+
+}
