@@ -24,7 +24,7 @@ export const Products = () => {
               :
               data?.map((product, index)=>{
                 return <Card 
-                key={product.title} 
+                key={product.title+index} 
                 title={product.title}
                 price={product.price}
                 images={product.images}
