@@ -35,7 +35,27 @@ export const WhyUs = () => {
           </div>            
         </div>
         <div className='secondWhy'>
-          
+          <div className='ucd'>
+            <div>
+              <h2>Unique And Creative Designs</h2>
+            </div>
+            <div>
+              <p>
+                From hip-hop music tees to the latest beer designs, ThatsLifeStudio has something for everyone. Our unique, creative designs let you stand out from the crowd and make a statement.
+              </p>
+            </div>
+          </div>
+          <div className='fed'>
+            <div>
+              <h2>Fast, Efficient Delivery Straight To Your Door.</h2>
+            </div>
+            <div>
+              <p>
+                Our fast, efficient delivery ensures that your order will arrive in a timely manner. In addition, we make sure to package your items securely so they're not damaged during shipping.
+                We strive to provide you with the best possible experience when it comes to shopping for hoodies or tees. Our collections include gym hoodies for both men and women, music tees, surf tees, beer tees, coffee tees, and wine tees – we have something for everyone! So what are you waiting for? <span>Start shopping now!</span>
+              </p>
+            </div>            
+          </div>
         </div>
     </div>
   )

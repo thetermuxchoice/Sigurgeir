@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(220vh - 80px);
+    height: calc(auto);
 }
 .firstWhy{
     display: flex;
@@ -12,8 +12,8 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 50%;
-    
+    height: auto;
+  
 }
 
 .titleWhy{
@@ -97,12 +97,65 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50%;
+    height: auto;
     background-image: url('../../public/images/smoke.png');
-    background-attachment: cover;
+    background-attachment:scroll;
     background-repeat: no-repeat;
     background-position:initial;
-    background-size:cover
+    background-size:cover;
+}
+.ucd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding:10vw;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+.ucd div{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vw;
+}
+.ucd div h2{
+    font-family: 'Unbounded', cursive;
+    font-size: 6vw;
+}
+.ucd div p{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-size: 4vw;
+}
+
+.fed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding:10vw;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+.fed div{
+    padding:2vw;
+    padding-right: 4vw;
+}
+.fed div h2{
+    font-family: 'Unbounded', cursive;
+    font-size: 6vw;
+}
+.fed div p{
+    font-family: 'Noto Sans Tangsa', sans-serif;
+    font-size: 4vw;
+
+}
+.fed div p span{
+    font-weight: bolder;
 }
 @-webkit-keyframes bounce {
     from, 20%, 53%, 80%, to {
@@ -180,7 +233,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: calc(220vh - 120px);
+        height: auto;
         background-color: rgb(232, 234, 245);
     }   
     .titleWhy{
@@ -268,5 +321,65 @@
         border-left: 1px black dotted;
         border-top: none;
 
+    }
+    .secondWhy{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        background-image: url('../../public/images/smoke.png');
+        background-attachment: cover;
+        background-repeat: no-repeat;
+        background-position:initial;
+        background-size:cover
+    }
+    .ucd{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        padding:2vw;
+    }
+    .ucd div{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ucd div h2{
+        font-family: 'Unbounded', cursive;
+        font-size: 2vw;
+    }
+    .ucd div p{
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-size: 2vw;
+    }
+    .fed{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+    }
+    .fed div{
+        padding:1vw;
+        padding-right: 2vw;
+    }
+    .fed div h2{
+        font-family: 'Unbounded', cursive;
+        font-size: 2vw;
+    }
+    .fed div p{
+        font-family: 'Noto Sans Tangsa', sans-serif;
+        font-size: 1.5vw;
+    }
+    .fed div p span{
+        font-weight: bolder;
     }
 }
