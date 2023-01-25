@@ -11,7 +11,7 @@ export const WhyUs = () => {
             </div>
             <div>
               <p>
-                ThatLifeStudio allows you to search from a wide collection. So you&#39;re sure to find something to
+                ThatLifeStudio allows you to search from a wide collection. So you&apos;re sure to find something to
                 your liking. Check out the following reasons why you should choose us:    
               </p> 
             </div>           
@@ -26,9 +26,9 @@ export const WhyUs = () => {
               </div>
               <div className='hqmText'>
                 <p>
-                  High-quality materials are used in all of ThatsLifeStudio&#39;s products. From hoodies to tees, you
+                  High-quality materials are used in all of ThatsLifeStudio&apos;s products. From hoodies to tees, you
                   can trust that our apparel is made with only the best fabrics and threads. We strive for
-                  perfection, so you don&#39;t have to worry about rips or tears.
+                  perfection, so you don&apos;t have to worry about rips or tears.
                 </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ export const WhyUs = () => {
             </div>
             <div>
               <p>
-                Our fast, efficient delivery ensures that your order will arrive in a timely manner. In addition, we make sure to package your items securely so they're not damaged during shipping.
+                Our fast, efficient delivery ensures that your order will arrive in a timely manner. In addition, we make sure to package your items securely so they&apos;re not damaged during shipping.
                 We strive to provide you with the best possible experience when it comes to shopping for hoodies or tees. Our collections include gym hoodies for both men and women, music tees, surf tees, beer tees, coffee tees, and wine tees – we have something for everyone! So what are you waiting for? <span>Start shopping now!</span>
               </p>
             </div>            
