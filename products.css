@@ -1,0 +1,33 @@
+.imageProducts {
+    width: 70vh;
+    transition: .6s ease;
+    cursor: pointer;
+}
+.imageProducts:hover{
+    transform: scale(1.1);
+    
+}
+li{
+    overflow: hidden;
+}
+.textContainerProduct{
+    position: absolute;
+    top: 50%;
+    font-size: 50px;
+    left:35%;
+    height: 40vh;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+    color: white
+}
+.buttonwhite{
+    top: 500px;
+ 
+    color: black;
+    padding: 10px;
+    background-color: white;
+    font-size: 10px;
+}
